@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    font-family: arial,sans-serif;
+    color: #222;
+    font-size: 14px; 
+
+}
+#nav a{
+    margin-right: 18px;
+}
+#nav a.topImage{
+    width: 35px;
+    height: 35px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    bottom:7px;
+}
+#main{
+    margin-top: 100px;
+}
+#logo{
+    text-align: center;
+}
+#SearchBarDiv{
+    text-align: center;
+    margin-top: 20px;
+   
+    position: relative;
+    
+    
+   
+    
+}
+#search , #voice {
+    position: absolute;
+    top:10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search {
+    margin-left: 10px;
+    left: 100px;
+}
+#voice{
+    margin-right: 100px;
+    right: 100px;
+ }
+#searchBar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 570px;
+    height: 20px;
+    border-radius: 20px;
+    outline: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgba(235, 231, 231, 0.849);
+    
+    
+}
+#searchBar:hover{
+    box-shadow: 0 0 8px 1px rgb(219, 216, 216);
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttons{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+   margin-right: 10px;
+   margin-left: 10px;
+    padding: 10px 16px 0px 16px;
+    
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.buttons:hover{
+    box-shadow: 0 0 3px 1px rgb(228, 226, 226);
+}
+#Covid{
+    font-family: arial,sans-serif;
+    color: #222;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+
+}
